@@ -5,7 +5,7 @@ local lang = redis:get(hash)
    if not lang then
         return '_You are not bot admin_'
 else
-     return 'شما مدیر ربات نیستید'
+     return '✖️شما مُدیر ربات نیستے✖️'
     end
 end
     local data = load_data(_config.moderation.data)
@@ -70,7 +70,7 @@ local lang = redis:get(hash)
      if not lang then
         return '_You are not bot admin_'
    else
-        return 'شما مدیر ربات نیستید'
+        return '✖️شما مُدیر ربات نیستے✖️'
     end
    end
     local data = load_data(_config.moderation.data)
@@ -594,7 +594,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -623,7 +623,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -654,7 +654,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -683,7 +683,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -712,7 +712,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -741,7 +741,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end 
 end
 
@@ -770,7 +770,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -799,7 +799,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -828,7 +828,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -857,7 +857,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -886,7 +886,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -915,7 +915,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -944,7 +944,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -973,7 +973,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -1002,7 +1002,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -1031,7 +1031,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end
 end 
 
@@ -1060,7 +1060,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -1089,7 +1089,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end 
 end
 
@@ -1118,7 +1118,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -1147,7 +1147,7 @@ local lang = redis:get(hash)
 if not lang then
 return "_You're Not_ *Moderator*"
 else
-return "شما مدیر گروه نیستید"
+return "✖️شما مُدیر ربات نیستے✖️"
 end 
 end
 
@@ -1176,7 +1176,7 @@ if not is_mod(msg) then
 if not lang then
  return "_You're Not_ *Moderator*"
 else
- return "شما مدیر گروه نیستید"
+ return "✖️شما مُدیر ربات نیستے✖️"
 end
 end
 
@@ -2894,7 +2894,7 @@ text = [[
 
  راهنما قفل   👉👈  lock help!   
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @ENERGYTEAM 🌐 ;)]]
+🌐 @LockerTeam 🌐 ;)]]
 
 elseif lang then
 text = [[
@@ -2922,7 +2922,7 @@ text = [[
 
  راهنما قفل   👉👈  lock help!   
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @ENERGYTEAM 🌐 ;)]]
+🌐 @LockerTeam 🌐 ;)]]
 end
 return text
 end
